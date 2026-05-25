@@ -1,0 +1,16 @@
+Loading Gold Standard data...
+Loading System predictions data...
+Checking note IDs between Gold Standard and System predictions...
+Computing evaluation metrics...
+
+              precision    recall  f1-score   support
+
+          no     0.7241    1.0000    0.8400        21
+         yes     1.0000    0.5789    0.7333        19
+
+    accuracy                         0.8000        40
+   macro avg     0.8621    0.7895    0.7867        40
+weighted avg     0.8552    0.8000    0.7893        40
+
+
+Evaluation results for Subtask 1: {'Precision': 1.0, 'Recall': 0.5789, 'F1-score': 0.7333}
