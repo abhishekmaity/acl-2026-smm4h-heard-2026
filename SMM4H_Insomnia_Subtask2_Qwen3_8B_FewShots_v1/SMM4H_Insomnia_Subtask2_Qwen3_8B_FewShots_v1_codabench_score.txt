@@ -1,0 +1,48 @@
+Loading Gold Standard data...
+Loading System predictions data...
+Checking note IDs between Gold Standard and System predictions...
+
+================================================================================
+PART 1: LABEL CLASSIFICATION METRICS
+================================================================================
+              precision    recall  f1-score   support
+
+Definition 1     0.8182    0.9000    0.8571        10
+Definition 2     0.6250    0.3333    0.4348        15
+      Rule B     0.6250    1.0000    0.7692         5
+      Rule C     0.4667    1.0000    0.6364        14
+
+   micro avg     0.5789    0.7500    0.6535        44
+   macro avg     0.6337    0.8083    0.6744        44
+weighted avg     0.6185    0.7500    0.6329        44
+ samples avg     0.4229    0.3792    0.3767        44
+
+
+Label Classification Results:
+{'Precision': 0.5789, 'Recall': 0.75, 'F1-score': 0.6535}
+
+================================================================================
+PART 2: SPAN EXTRACTION METRICS
+================================================================================
+
+Per-label span extraction results:
+
+Definition 1:
+  Exact matching   - {'Precision': 0.125, 'Recall': 0.1667, 'F1': 0.1429}
+  Partial matching - {'Precision': 0.5625, 'Recall': 0.75, 'F1': 0.6429}
+
+Definition 2:
+  Exact matching   - {'Precision': 0.0, 'Recall': 0.0, 'F1': 0.0}
+  Partial matching - {'Precision': 0.2105, 'Recall': 0.1905, 'F1': 0.2}
+
+Rule B:
+  Exact matching   - {'Precision': 0.0, 'Recall': 0.0, 'F1': 0.0}
+  Partial matching - {'Precision': 0.2632, 'Recall': 1.0, 'F1': 0.4167}
+
+Rule C:
+  Exact matching   - {'Precision': 0.1566, 'Recall': 0.325, 'F1': 0.2114}
+  Partial matching - {'Precision': 0.253, 'Recall': 0.525, 'F1': 0.3415}
+
+Overall Span Extraction (Micro-average):
+  Exact matching   - {'Precision': 0.1095, 'Recall': 0.1923, 'F1': 0.1395}
+  Partial matching - {'Precision': 0.2847, 'Recall': 0.5, 'F1': 0.3628}
