@@ -14,7 +14,6 @@ This repository contains the implementation of the systems developed by the **A3
 ## 📑 Table of Contents
 - [Abstract](#-abstract)
 - [Task Description](#-task-description)
-- [System Architecture](#-system-architecture)
 - [Methodology](#-methodology)
 - [Experimental Results](#-experimental-results)
 - [Error Analysis](#-error-analysis)
@@ -48,41 +47,6 @@ Predict the presence/absence of four insomnia-related criteria and extract their
 3. **Rule B (yes/no):** Active prescription of hypnotic or related sleep medications.
 4. **Rule C (yes/no):** General clinical rules or notes about sleep patterns.
 * **Primary Metrics:** Micro-averaged F1-score for label classification, and Exact/Partial Match F1-scores for character-level evidence span extraction.
-
----
-
-## ⚙️ System Architecture
-
-Our solution addresses the classification and extraction tasks through two distinct model paradigms:
-
-```mermaid
-graph TD
-    classDef default fill:#f9f9f9,stroke:#333,stroke-width:1px;
-    classDef input fill:#e1f5fe,stroke:#0288d1,stroke-width:2px;
-    classDef FT fill:#e8f5e9,stroke:#388e3c,stroke-width:2px;
-    classDef FS fill:#fff3e0,stroke:#f57c00,stroke-width:2px;
-    classDef out fill:#f3e5f5,stroke:#7b1fa2,stroke-width:2px;
-
-    ClinicalNote["Clinical Note (MIMIC-III EHR)"]:::input --> Pipeline{"Task Router"}
-    
-    %% Subtask 1 Flow
-    Pipeline -->|"Subtask 1: Binary Classify"| S1_Model{"PEFT Models"}
-    S1_Model -->|"Gemma-3-1B QLoRA"| S1_Gemma["Gemma-3-1B Fine-Tuning"]:::FT
-    S1_Model -->|"Qwen3-1.7B LoRA"| S1_Qwen["Qwen3-1.7B Fine-Tuning"]:::FT
-    S1_Gemma --> S1_Out["Insomnia Status: Yes/No (Best F1: 0.7333)"]:::out
-    S1_Qwen --> S1_Out
-    
-    %% Subtask 2 Flow
-    Pipeline -->|"Subtask 2: Rules & Spans"| S2_Model{"Qwen3-8B (Few-Shot)"}
-    S2_Model -->|"Few-Shot v1 Prompt"| S2_V1["v1: Rule-Focused Prompt"]:::FS
-    S2_Model -->|"Few-Shot v2 Prompt"| S2_V2["v2: Span-Faithful Prompt (Drug Keywords)"]:::FS
-    
-    S2_V1 --> Parsing_V1["Structured JSON Parsing & Post-processing"]
-    S2_V2 --> Parsing_V2["Structured JSON Parsing & Post-processing"]
-    
-    Parsing_V1 --> S2_Out_V1["Labels (F1: 0.6535) / Spans (Partial F1: 0.3628)"]:::out
-    Parsing_V2 --> S2_Out_V2["Labels (F1: 0.6000) / Spans (Partial F1: 0.5192)"]:::out
-```
 
 ---
 
