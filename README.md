@@ -197,23 +197,21 @@ pip install "unsloth[colab-new] @ git+https://github.com/unslothai/unsloth.git"
 
 ## 📌 Interactive Poster Viewer
 
-Use the frame below to view the research poster presented at the conference. You can replace the source URL inside the configuration when linking your custom host.
-
 <div align="center" style="margin: 30px 0;">
   <div style="border: 2px solid #5c6bc0; border-radius: 12px; overflow: hidden; max-width: 950px; box-shadow: 0 10px 30px rgba(0,0,0,0.15); background: #fdfdfd; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;">
     <div style="background: linear-gradient(135deg, #1e3c72 0%, #2a5298 100%); color: white; padding: 16px 20px; font-weight: bold; font-size: 16px; border-bottom: 2px solid #5c6bc0; display: flex; align-items: center; justify-content: space-between; box-sizing: border-box;">
       <div style="display: flex; align-items: center; gap: 8px;">
         <span style="font-size: 18px;">📋</span>
-        <span>SMM4H-HeaRD 2026 Poster</span>
+        <span>A3S@C-DAC #SMM4H-HeaRD 2026 Poster</span>
       </div>
-      <span style="font-size: 11px; background: rgba(255,255,255,0.2); padding: 4px 10px; border-radius: 20px; text-transform: uppercase; letter-spacing: 0.5px;">ACL 2026 Workshop and Shared Task</span>
+      <span style="font-size: 11px; background: rgba(255,255,255,0.2); padding: 4px 10px; border-radius: 20px; text-transform: uppercase; letter-spacing: 0.5px;">ACL 2026 Workshop & Shared Task</span>
     </div>
-    <!-- Replace 'https://github.com/abhishekmaity/acl-2026-smm4h-heard-2026/blob/main/smm4h_heard_2026_poster.pdf' below with your actual poster image or PDF link (e.g. GitHub Pages or raw asset URL) -->
+    <!-- Replace 'POSTER_URL_PLACEHOLDER' below with your actual poster image or PDF link (e.g. GitHub Pages or raw asset URL) -->
     <div style="background: #fafafa; position: relative;">
-      <iframe src="https://github.com/abhishekmaity/acl-2026-smm4h-heard-2026/blob/main/smm4h_heard_2026_poster.pdf" width="100%" height="600px" style="border: none; display: block; background: #eaeaea;" allow="fullscreen"></iframe>
+      <iframe src="https://docs.google.com/gview?url=https://raw.githubusercontent.com/abhishekmaity/acl-2026-smm4h-heard-2026/main/smm4h_heard_2026_poster.pdf" width="100%" height="600px" style="border: none; display: block; background: #eaeaea;" allow="fullscreen"></iframe>
       <!-- Fallback notification if URL is placeholder -->
       <div style="padding: 12px; background: #fff9db; border-top: 1px solid #ffe066; color: #856404; font-size: 13px; text-align: center;">
-        <!--<strong>Note:</strong> To display your poster, replace <code>https://github.com/abhishekmaity/acl-2026-smm4h-heard-2026/blob/main/smm4h_heard_2026_poster.pdf</code> in this <code>README.md</code> with the direct link to your PDF or image asset.-->
+        <strong>Note:</strong> This is the official SMM4H-HeaRD 2026 poster presented at ACL 2026.
       </div>
     </div>
   </div>
