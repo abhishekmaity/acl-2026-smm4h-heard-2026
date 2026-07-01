@@ -208,12 +208,12 @@ Use the frame below to view the research poster presented at the conference. You
       </div>
       <span style="font-size: 11px; background: rgba(255,255,255,0.2); padding: 4px 10px; border-radius: 20px; text-transform: uppercase; letter-spacing: 0.5px;">ACL 2026 Workshop and Shared Task</span>
     </div>
-    <!-- Replace 'POSTER_URL_PLACEHOLDER' below with your actual poster image or PDF link (e.g. GitHub Pages or raw asset URL) -->
+    <!-- Replace 'https://github.com/abhishekmaity/acl-2026-smm4h-heard-2026/blob/main/smm4h_heard_2026_poster.pdf' below with your actual poster image or PDF link (e.g. GitHub Pages or raw asset URL) -->
     <div style="background: #fafafa; position: relative;">
-      <iframe src="POSTER_URL_PLACEHOLDER" width="100%" height="600px" style="border: none; display: block; background: #eaeaea;" allow="fullscreen"></iframe>
+      <iframe src="https://github.com/abhishekmaity/acl-2026-smm4h-heard-2026/blob/main/smm4h_heard_2026_poster.pdf" width="100%" height="600px" style="border: none; display: block; background: #eaeaea;" allow="fullscreen"></iframe>
       <!-- Fallback notification if URL is placeholder -->
       <div style="padding: 12px; background: #fff9db; border-top: 1px solid #ffe066; color: #856404; font-size: 13px; text-align: center;">
-        <strong>Note:</strong> To display your poster, replace <code>POSTER_URL_PLACEHOLDER</code> in this <code>README.md</code> with the direct link to your PDF or image asset.
+        <!--<strong>Note:</strong> To display your poster, replace <code>https://github.com/abhishekmaity/acl-2026-smm4h-heard-2026/blob/main/smm4h_heard_2026_poster.pdf</code> in this <code>README.md</code> with the direct link to your PDF or image asset.-->
       </div>
     </div>
   </div>
