@@ -20,7 +20,6 @@ This repository contains the implementation of the systems developed by the **A3
 - [Error Analysis](#-error-analysis)
 - [Project Directory Structure](#-project-directory-structure)
 - [Getting Started](#-getting-started)
-- [Interactive Poster Viewer](#-interactive-poster-viewer)
 - [Citation](#-citation)
 - [Acknowledgments](#-acknowledgments)
 
@@ -192,30 +191,6 @@ pip install "unsloth[colab-new] @ git+https://github.com/unslothai/unsloth.git"
 1. **Subtask 1 - Gemma-3-1B QLoRA:** Navigate to `SMM4H_Insomnia_Subtask1_Gemma3_1B_QLoRA_v2/` and open `SMM4H_Insomnia_Subtask1_Gemma3_1B_QLoRA_v2.ipynb`. Run the cells sequentially to load the dataset, quantize, train, and test.
 2. **Subtask 1 - Qwen3-1.7B LoRA:** Navigate to `SMM4H_Insomnia_Subtask1_Qwen3_1dot7B_LoRA_v1/` and execute `SMM4H_Insomnia_Subtask1_Qwen3_1dot7B_LoRA_v1.ipynb`.
 3. **Subtask 2 - Qwen3-8B Few-Shot:** Navigate to `SMM4H_Insomnia_Subtask2_Qwen3_8B_FewShots_v2/` and open `SMM4H_Insomnia_Subtask2_Qwen3_8B_FewShots_v2.ipynb` to execute the improved span extraction pipeline.
-
----
-
-## 📌 Interactive Poster Viewer
-
-<div align="center" style="margin: 30px 0;">
-  <div style="border: 2px solid #5c6bc0; border-radius: 12px; overflow: hidden; max-width: 950px; box-shadow: 0 10px 30px rgba(0,0,0,0.15); background: #fdfdfd; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;">
-    <div style="background: linear-gradient(135deg, #1e3c72 0%, #2a5298 100%); color: white; padding: 16px 20px; font-weight: bold; font-size: 16px; border-bottom: 2px solid #5c6bc0; display: flex; align-items: center; justify-content: space-between; box-sizing: border-box;">
-      <div style="display: flex; align-items: center; gap: 8px;">
-        <span style="font-size: 18px;">📋</span>
-        <span>A3S@C-DAC #SMM4H-HeaRD 2026 Poster</span>
-      </div>
-      <span style="font-size: 11px; background: rgba(255,255,255,0.2); padding: 4px 10px; border-radius: 20px; text-transform: uppercase; letter-spacing: 0.5px;">ACL 2026 Workshop & Shared Task</span>
-    </div>
-    <!-- Replace 'POSTER_URL_PLACEHOLDER' below with your actual poster image or PDF link (e.g. GitHub Pages or raw asset URL) -->
-    <div style="background: #fafafa; position: relative;">
-      <iframe src="https://docs.google.com/gview?url=https://raw.githubusercontent.com/abhishekmaity/acl-2026-smm4h-heard-2026/main/smm4h_heard_2026_poster.pdf" width="100%" height="600px" style="border: none; display: block; background: #eaeaea;" allow="fullscreen"></iframe>
-      <!-- Fallback notification if URL is placeholder -->
-      <div style="padding: 12px; background: #fff9db; border-top: 1px solid #ffe066; color: #856404; font-size: 13px; text-align: center;">
-        <strong>Note:</strong> This is the official SMM4H-HeaRD 2026 poster presented at ACL 2026.
-      </div>
-    </div>
-  </div>
-</div>
 
 ---
 
