@@ -1,4 +1,4 @@
-SMM4H-HeaRD 2026 @ 64th ACL 2026
+## SMM4H-HeaRD 2026 @ 64th ACL 2026
 > **Reasoning Meets Evidence: LLMs for Interpretable Insomnia Detection with Evidence Extraction in Clinical Notes**
 
 [![Paper](https://img.shields.io/badge/ACL%20Anthology-2026.smm4h--1.1-blue.svg)](https://aclanthology.org/2026.smm4h-1.1.pdf)
