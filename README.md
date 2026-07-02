@@ -164,15 +164,22 @@ If you use this code or refer to our findings, please cite our workshop paper:
 
 ```bibtex
 @inproceedings{maity-etal-2026-a3s,
-    title = "{A3S@C-DAC} at #SMM4H-HeaRD 2026: Reasoning Meets Evidence: {LLMs} for Interpretable Insomnia Detection with Evidence Extraction in Clinical Notes",
-    author = "Maity, Abhishek and Shinde, Amol and Kushare, Abhishek Suresh and Pawar, Swapnil",
-    booktitle = "Proceedings of the 11th Social Media Mining for Health Research and Applications (SMM4H-HeaRD 2026) Workshop and Shared Tasks",
+    title = "{A}3{S}@{C}-{DAC} at {\#}{SMM}4{H}-{H}ea{RD} 2026: Reasoning Meets Evidence: {LLM}s for Interpretable Insomnia Detection with Evidence Extraction in Clinical Notes",
+    author = "Maity, Abhishek  and
+      Shinde, Amol  and
+      Kushare, Abhishek Suresh  and
+      Pawar, Swapnil",
+    editor = "Lopez-Garcia, Guillermo  and
+      Gonzalez-Hernandez, Graciela",
+    booktitle = "Proceedings of the 11th Social Media Mining for Health Research and Applications ({SMM}4{H}-{H}ea{RD} 2026) Workshop and Shared Tasks",
     month = jul,
     year = "2026",
     address = "San Diego, United States",
     publisher = "Association for Computational Linguistics",
-    url = "https://aclanthology.org/2026.smm4h-1.1.pdf",
-    pages = "1--6"
+    url = "https://aclanthology.org/2026.smm4h-1.1/",
+    doi = "10.18653/v1/2026.smm4h-1.1",
+    pages = "1--6",
+    ISBN = "979-8-89176-432-3"
 }
 ```
 
