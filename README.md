@@ -163,12 +163,8 @@ If you use this code or refer to our findings, please cite our workshop paper:
 ```bibtex
 @inproceedings{maity-etal-2026-a3s,
     title = "{A}3{S}@{C}-{DAC} at {\#}{SMM}4{H}-{H}ea{RD} 2026: Reasoning Meets Evidence: {LLM}s for Interpretable Insomnia Detection with Evidence Extraction in Clinical Notes",
-    author = "Maity, Abhishek  and
-      Shinde, Amol  and
-      Kushare, Abhishek Suresh  and
-      Pawar, Swapnil",
-    editor = "Lopez-Garcia, Guillermo  and
-      Gonzalez-Hernandez, Graciela",
+    author = "Maity, Abhishek  and Shinde, Amol  and Kushare, Abhishek Suresh  and Pawar, Swapnil",
+    editor = "Lopez-Garcia, Guillermo  and Gonzalez-Hernandez, Graciela",
     booktitle = "Proceedings of the 11th Social Media Mining for Health Research and Applications ({SMM}4{H}-{H}ea{RD} 2026) Workshop and Shared Tasks",
     month = jul,
     year = "2026",
