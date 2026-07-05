@@ -107,8 +107,6 @@ A qualitative evaluation of model predictions identified 5 main error categories
 ## 📁 Project Directory Structure
 
 ```
-.
-├── DB_Report_SMM4H_HeaRD_2026_Task_2 camera-ready FINAL.pdf     # Camera-ready research paper
 ├── SMM4H_Insomnia_Subtask1_Gemma3_1B_QLoRA_v2/                  # Subtask 1: Gemma-3-1B QLoRA
 │   ├── insomnia_gemma3_1b.ipynb                                 # Notebook: Development script
 │   ├── SMM4H_Insomnia_Subtask1_Gemma3_1B_QLoRA_v2.ipynb         # Notebook: Core training script
